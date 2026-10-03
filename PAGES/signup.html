@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/signup.css">
+    <title>Sign Up</title>
+</head>
+
+<body>
+    <section class="left-side">
+        <header>
+            <img src="../Images/header-logo.png" alt="Header Icon" class="header_icon">
+            <div class="header_text">
+                <h2>EduFlow</h2>
+                <p>Manage. Learn. Grow.</p>
+            </div>
+        </header>
+        <div class="hero">
+            <h1>Start your journey with EduFlow</h1>
+            <p>Join thousands of institutions already transforming their education management experience. Track
+                real-time progress and simplify administration.</p>
+        </div>
+        <div class="trust_panel">
+            <img src="../Images/trust-icon.png" alt="Trust panel icon" class="trust_icon">
+            <div class="trust_text">
+                <h2>Trusted by 200+ Institutions Worldwide</h2>
+                <p>Fully compliant with SOC2, GDPR, and FERPA data security standards.</p>
+            </div>
+        </div>
+    </section>
+    <section class="right-side">
+        <div class="signup_card">
+            <div class="signup_text">
+                <h1>Create your account</h1>
+                <p>Get started with EduFlow today</p>
+            </div>
+            <p class="alert">Please Fill all Fields</p>
+            <form action="#" class="form signup_form">
+                <div class="form_item signup_form_item">
+                    <label for="name" class="form_label signup_form_label">Full Name</label>
+                    <input type="text" id="name" class="form_input signup_name_input" placeholder="Sarah Jenkins">
+                </div>
+                <div class="form_item signup_form_item">
+                    <label for="user_email" class="form_label signup_form_label">Email Address</label>
+                    <input type="email" id="user_email" class="form_input signup_email_input"
+                        placeholder="sarah.jenkins@eduflow.edu">
+                </div>
+                <div class="form_item signup_form_item">
+                    <label for="phone" class="form_label signup_form_label">Phone Number</label>
+                    <input type="tel" id="phone" class="form_input signup_phone_input" placeholder="+1 (555) 000-0000">
+                </div>
+                <div class="form_item signup_form_item">
+                    <label for="role" class="form_label signup_form_label">Role</label>
+                    <select id="role" name="role" class="form_input signup_role_input">
+                        <option value="">Select Role</option>
+                        <option value="admin">Admin</option>
+                        <option value="teacher">Teacher</option>
+                        <option value="student">Student</option>
+                    </select>
+                </div>
+                <div class="form_item signup_form_item">
+                    <label for="user_password" class="form_label signup_form_label">Password</label>
+                    <input type="password" id="user_password" class="form_input sign_password_input"
+                        placeholder="Enter Password">
+                </div>
+                <div class="form_item signup_form_item">
+                    <label for="confirm_password" class="form_label signup_form_label">Confirm Password</label>
+                    <input type="password" id="confirm_password" class="form_input signup_confirm_password_input"
+                        placeholder="Confirm Your Password">
+                </div>
+                <button type="submit" class="btn signup_btn">
+                    Create Account
+                </button>
+            </form>
+            <div>
+                <p class="signup_form_text">
+                    Already have an account? <a href="../PAGES/login.html" class="pricing_contact">Sign in</a>
+                </p>
+            </div>
+
+        </div>
+    </section>
+    <script src="../js/authentication.js"></script>
+    <script src="../JS/signup.js"></script>
+</body>
+
+</html>

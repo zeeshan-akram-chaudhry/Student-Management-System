@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/login.css">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <title>Login</title>
+</head>
+
+<body>
+    <section class="left-side">
+        <header>
+            <img src="../Images/header-logo.png" alt="Header Icon" class="header_icon">
+            <div class="header_text">
+                <h2>EduFlow</h2>
+                <p>Manage. Learn. Grow.</p>
+            </div>
+        </header>
+        <div class="hero">
+            <h1>Everything your institution needs, in one place.</h1>
+            <p>Streamline student management, track attendance, manage courses, and empower educators all from a
+                single platform.</p>
+        </div>
+        <div class="trust_panel">
+            <img src="../Images/trust-icon.png" alt="Trust panel icon" class="trust_icon">
+            <div class="trust_text">
+                <h2>Trusted by 200+ Institutions Worldwide</h2>
+                <p>Fully compliant with SOC2, GDPR, and FERPA data security standards.</p>
+            </div>
+        </div>
+    </section>
+    <section class="right-side">
+        <div class="login_card">
+            <div class="login_text">
+                <h1>Welcome back</h1>
+                <p>Sign in to your account to continue</p>
+            </div>
+            <p class="alert">Please Fill all Fields</p>
+            <form action="#" class="form login_form">
+                <div class="form_item login_form_item">
+                    <label for="email" class="form_label login_form_label">Email Address</label>
+                    <input type="email" id="email" class="form_input login_email_input"
+                        placeholder="Enter Email Address">
+                </div>
+                <div class="form_item login_form_item">
+                    <label for="password" class="form_label login_form_label">Password</label>
+                    <input type="password" id="password" class="form_input login_password_input"
+                        placeholder="Enter Password">
+                </div>
+                <div class="form_options">
+                    <div class="options_text">
+                        <input type="checkbox" class="checkbox">
+                        <p>Remember me</p>
+                    </div>
+                    <a href="#" class="forget_password">Forgot password?</a>
+                </div>
+                <button type="submit" class="btn login_btn">
+                    Sign In
+                </button>
+            </form>
+            <div>
+                <p class="login_form_text">
+                    Don't have an account? <a href="../PAGES/signup.html" class="pricing_contact">Create one</a>
+                </p>
+            </div>
+
+        </div>
+    </section>
+    <script src="../JS/authentication.js"></script>
+    <script src="../js/login.js"></script>
+</body>
+
+</html>

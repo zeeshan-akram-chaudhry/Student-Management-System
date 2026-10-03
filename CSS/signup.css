@@ -1,0 +1,101 @@
+body {
+    display: flex;
+    min-height: 100vh;
+}
+
+.left-side {
+    width: 100%;
+    max-width: 700px;
+    margin: 0px;
+    padding: 80px;
+    background: linear-gradient(to right, #0A0923, #12103E);
+}
+
+.hero {
+    margin-top: 254px;
+    margin-bottom: 254px;
+}
+
+.hero>h1 {
+    font-size: 44px;
+    font-weight: 800;
+}
+
+.hero>p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #94A3B8;
+}
+
+.trust_panel {
+    margin: 0;
+    background-color: rgba(255, 255, 255, 0.04);
+    padding: 30px 24px;
+    display: flex;
+    gap: 16px;
+    border-radius: 16px;
+    border: 2px solid transparent;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+}
+
+.trust_icon {
+    width: 48px;
+    height: 48px;
+}
+
+.trust_text>h2 {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.trust_text>p {
+    font-size: 12px;
+    font-weight: 400;
+    color: #94A3B8;
+}
+
+.right-side {
+    width: 100%;
+    max-width: 700px;
+    margin: 0;
+    padding: 140px;
+
+}
+
+.signup_card {
+    width: 100%;
+    max-width: 440px;
+}
+
+.signup_text>h1 {
+    font-size: 32px;
+    font-weight: 800;
+    margin: 0;
+    color: #0F172A;
+}
+
+.signup_text>p {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 8px 0px;
+    color: #475569;
+}
+
+.signup_form_text {
+    font-size: 14px;
+    font-weight: 400;
+    color: #475569;
+    text-align: center;
+}
+
+.pricing_contact {
+    text-decoration: none;
+    font-weight: 700;
+    color: #4F46E5;
+}
+
+.signup_role_input {
+    font-size: 14px;
+    font-weight: 400;
+}
